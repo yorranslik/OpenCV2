@@ -30,6 +30,17 @@ Smile to your webcam and check whether or not your human.
 python detect_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
 ```
 
+## Basic OpenCV
+In the files starting with a 2, I worked on the basic building blocks that OpenCV has, together with imutils. In the first file, I worked on the basic image reading, finding the shape, resizing, finding the color of a specific pixel and rotating. In the second document, I followed online tutorials to learn how to draw ROI boxes, add Gaussian blurr and add text to the the boxes. In the final document, it all came together, including some argparser lessons from yesterday. Here, we learnt to detect edges by converting to grayscale/B&W, add a canny filter, apply thresholding and use the cv2.findcontours() function. With these contours, we then drew the contours using cv2.drawContours(). At the end, the file erodes the objects (smaller) and dilutes (bigger). 
+
+```
+python 2OpenCV.py / 2OpenCV2.py
+```
+```
+python 2OpenCV3.py --i tetris_blocks.png
+```
+
+
 ## Contributing
 
 Feel free to contribute, and above all upgrade.
