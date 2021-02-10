@@ -40,6 +40,14 @@ python 2OpenCV.py / 2OpenCV2.py
 python 2OpenCV3.py --i tetris_blocks.png
 ```
 
+## Making a basic document scanner.
+some easypiecie documentscanner that transforms the image, detects edges, draws the contours and then waprs the image to give it some smeck. Requires a pyimagesearch function to run properly.
+
+```
+python 3Scanner.py --image page.jpg 
+
+```
+
 
 ## Contributing
 
