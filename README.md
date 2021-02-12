@@ -48,6 +48,13 @@ python 3Scanner.py --image page.jpg
 
 ```
 
+## Making an exam tester.
+Using the stuff we learned yesterday, we import a multiple choice exam and then find which one is filled out using binairy thresholding. This could be extented further to actually find double fills and empty fills, etc. But for now, this is sufficient. Now onto the book. 
+```
+python 4Exam.py --image omr_test1.png 
+
+```
+
 
 ## Contributing
 
