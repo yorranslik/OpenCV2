@@ -54,6 +54,13 @@ Using the stuff we learned yesterday, we import a multiple choice exam and then 
 python 4Exam.py --image omr_test1.png 
 
 ```
+## selecting and tracking/tracing based on color.
+If we would like to trace an object based on the color of the object, we gan use this script. We input the color, and add a tracer. also, this script has some information on how to select either the webcam-feed, or the video input file. 
+```
+python 5objectdetection.py /--video filename.mp4
+
+```
+
 
 
 ## Contributing
